@@ -1,0 +1,62 @@
+.slider {
+  position: relative;
+  width: 800px;
+  margin: 50px auto;
+  height: 500px;
+}
+.slider__img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 800px;
+  height: 500px;
+}
+.slider__page {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background-color: white;
+  padding: 5px;
+}
+.slider__text {
+  position: absolute;
+  bottom: 20px;
+  background-color: white;
+  padding: 5px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.left {
+  position: absolute;
+  left: 20px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  cursor: pointer;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.right {
+  position: absolute;
+  right: 20px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  cursor: pointer;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(212, 207, 207);
+  border-radius: 50%;
+}
+.active {
+  background-color: gray;
+}
